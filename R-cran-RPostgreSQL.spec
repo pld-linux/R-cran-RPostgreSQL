@@ -2,12 +2,12 @@
 %define		modulename	RPostgreSQL
 Summary:	R PostgreSQL Database Interface
 Name:		R-cran-%{modulename}
-Version:	0.1r6
+Version:	0.1r7
 Release:	1
 License:	GPL
 Group:		Applications/Databases
 Source0:	ftp://stat.ethz.ch/R-CRAN/src/contrib/%{modulename}_%{fversion}.tar.gz
-# Source0-md5:	253a744d3a236c3146b54f50b17ca11b
+# Source0-md5:	a847886c463df39ad17baa1a5d64d8b0
 BuildRequires:	R >= 2.8.1
 Requires(post,postun):	R >= 2.8.1
 Requires(post,postun):	perl-base
