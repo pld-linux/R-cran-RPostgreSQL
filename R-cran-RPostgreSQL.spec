@@ -1,4 +1,4 @@
-%define		fversion	%(echo %{version} |tr r -)
+%define		fversion	%(echo %{version} | tr r -)
 %define		modulename	RPostgreSQL
 %define		_noautoreq	/usr/bin/r
 Summary:	R PostgreSQL Database Interface
@@ -9,7 +9,7 @@ License:	GPL
 Group:		Applications/Databases
 Source0:	http://cran.r-project.org/src/contrib/%{modulename}_%{fversion}.tar.gz
 # Source0-md5:	7d5858733df613d219889ab8d40d29bb
-BuildRequires:	R >= 2.8.1
+BuildRequires:	R >= 2.9.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
