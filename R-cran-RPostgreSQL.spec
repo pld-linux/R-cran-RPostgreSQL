@@ -3,12 +3,12 @@
 %define		_noautoreq	/usr/bin/r
 Summary:	R PostgreSQL Database Interface
 Name:		R-cran-%{modulename}
-Version:	0.3r2
+Version:	0.4
 Release:	1
 License:	GPL
 Group:		Applications/Databases
 Source0:	http://cran.r-project.org/src/contrib/%{modulename}_%{fversion}.tar.gz
-# Source0-md5:	7d5858733df613d219889ab8d40d29bb
+# Source0-md5:	6f9e63f9f5818645171212a40324fccc
 BuildRequires:	R >= 2.9.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
